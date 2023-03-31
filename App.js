@@ -1,9 +1,9 @@
-function display(val){
+function display(val) {
 
     document.getElementById('result').value += val
 
 }
-function solve(){
+function solve() {
 
     let x = document.getElementById('result').value
 
@@ -12,13 +12,12 @@ function solve(){
     document.getElementById('result').value = res;
 
 }
-function clearAll(){
+function clearAll() {
 
     document.getElementById('result').value = '';
 
 }
-function deleteOne()
-{
-    const input =   document.getElementById('result');
-    input.value = input.value.toString().slice(0,-1);
+function deleteOne() {
+    const input = document.getElementById('result');
+    input.value = input.value.toString().slice(0, -1);
 }

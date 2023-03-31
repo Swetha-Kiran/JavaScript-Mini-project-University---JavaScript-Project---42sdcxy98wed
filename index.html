@@ -1,41 +1,44 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <script src="App.js" type="text/javascript"></script> 
+    <script src="App.js" type="text/javascript"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div id="main-grid">
-    <div id="grid-container">
-      
-        <input type="text" id="result" class="span-four" value="" disabled>
+        <div id="grid-container">
 
-        <button class="span-two" onClick="clearAll()">AC</button>
-        <button onclick="deleteOne()">DEL</button>
-        <button value="/" onclick="display('/')">÷</button> 
+            <input type="text" id="result" class="span-four" value="" disabled>
 
-        <button value="1" onclick="display('1')">1</button>
-        <button value="2" onclick="display('2')">2</button>
-        <button value="3" onclick="display('3')">3</button>
+            <button class="span-two" onClick="clearAll()">AC</button>
+            <button onclick="deleteOne()">DEL</button>
+            <button value="/" onclick="display('/')">÷</button>
 
-        <button  value="*" onclick="display('*')">*</button>
-        <button  value="4" onclick="display('4')">4</button>
-        <button value="5" onclick="display('5')">5</button>
+            <button value="1" onclick="display('1')">1</button>
+            <button value="2" onclick="display('2')">2</button>
+            <button value="3" onclick="display('3')">3</button>
 
-        <button value="6" onclick="display('6')">6</button>
-        <button value="+" onclick="display('+')">+</button>
-        <button value="7" onclick="display('7')">7</button>
+            <button value="*" onclick="display('*')">*</button>
+            <button value="4" onclick="display('4')">4</button>
+            <button value="5" onclick="display('5')">5</button>
 
-        <button value="8" onclick="display('8')">8</button>
-        <button value="9" onclick="display('9')">9</button>
-        <button value="-" onclick="display('-')">-</button>
+            <button value="6" onclick="display('6')">6</button>
+            <button value="+" onclick="display('+')">+</button>
+            <button value="7" onclick="display('7')">7</button>
 
-        <button value="." onclick="display('.')">.</button>
-        <button value="0" onclick="display('0')">0</button>
-        <button class="span-two" value="=" onclick="solve()">=</button>
-</div>
-</div>
+            <button value="8" onclick="display('8')">8</button>
+            <button value="9" onclick="display('9')">9</button>
+            <button value="-" onclick="display('-')">-</button>
+
+            <button value="." onclick="display('.')">.</button>
+            <button value="0" onclick="display('0')">0</button>
+            <button class="span-two" value="=" onclick="solve()">=</button>
+        </div>
+    </div>
 
 
 </body>
+
 </html>
